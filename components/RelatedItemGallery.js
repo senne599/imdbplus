@@ -12,7 +12,7 @@ const RelatedItemGallery = ({ items, title, type }) => {
       <div className={styles.title}>{title}</div>
       <div className={styles.relateditems}>
         {items.map((item, index) => (
-          <RelatedItem title={item.content.title} picture={item.content.mainpicture.filename} url={item.full_slug} type={type} />
+          <RelatedItem key={index} title={item.content.title} picture={item.content.mainpicture.filename} url={item.full_slug} type={type} />
         ))}
       </div>
     </div>

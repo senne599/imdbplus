@@ -4,10 +4,10 @@ import styles from "../styles/SmallCard.module.scss"
 
 
 
-const SmallCard = ({ lang, title, short, picture, url, type, price }) => {
+const SmallCard = ({ key, lang, title, short, picture, url, type, price }) => {
 
   return (
-    <a href={`/${url}`} className={`bg-shadow-${type} ${styles.item}`}>
+    <a key={key} href={`/${url}`} className={`bg-shadow-${type} ${styles.item}`}>
       <div >
         <div className={styles.mainpicture} style={{ backgroundImage: `url("${picture}")` }}>
         </div>
