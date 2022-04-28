@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     //on routechange we log a google pageview
     const handleRouteChange = (url) => {
-      ga.pageview(url)
+      //ga.pageview(url)
     }
     //
     hotjar.initialize(2688484, 6)
