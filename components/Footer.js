@@ -12,7 +12,7 @@ const Footer = () => {
             className=""
           />
         </div>
-        <p>IMDB Plus is every bit as good as IMDB. Plus!</p>
+        <p>Hey mannen !!!!!! en vrouwen! IMDB Plus is every bit as good as IMDB. Plus!</p>
       </div>
     </footer>
 

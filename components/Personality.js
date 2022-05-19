@@ -39,7 +39,7 @@ const Personality = ({ data, level }) => {
         {/* <div className={[styles.movie, styles.test].join(' ')}> */}
         <div className={styles.personality}>
           <h1 className={styles.title}>
-            {content.first_name} {content.last_name}
+            {content.first_name} {content.last_name} Joehoe
           </h1>
           <div className={styles.countrylist}>
             {countries.map((item, index) => (
